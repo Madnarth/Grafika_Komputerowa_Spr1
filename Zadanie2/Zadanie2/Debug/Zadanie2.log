@@ -1,0 +1,5 @@
+﻿  Zadanie2.cpp
+c:\users\paweł\documents\github\grafika_komputerowa_spr1\zadanie2\zadanie2\zadanie2.cpp(32): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\paweł\documents\github\grafika_komputerowa_spr1\zadanie2\zadanie2\zadanie2.cpp(47): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  Zadanie2.vcxproj -> C:\Users\Paweł\Documents\GitHub\Grafika_Komputerowa_Spr1\Zadanie2\Debug\Zadanie2.exe
+  Zadanie2.vcxproj -> C:\Users\Paweł\Documents\GitHub\Grafika_Komputerowa_Spr1\Zadanie2\Debug\Zadanie2.pdb (Full PDB)
