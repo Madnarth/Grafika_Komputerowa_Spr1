@@ -11,7 +11,7 @@
 GLfloat x_1 = 100.0f;
 GLfloat y_1 = 150.0f;
 GLfloat angle = 0;
-GLsizei rsize = 20;
+GLsizei rsize = 50;
 
 // Rozmiar kroku (liczba pikseli) w osi x i y
 GLfloat xstep = 1.0f;
@@ -24,10 +24,10 @@ GLfloat windowHeight;
 void RenderScene(void) {
 	// Wyczyszczenie okna aktualnym kolorem czyszcz¹cym
 	glClear(GL_COLOR_BUFFER_BIT);
-	// Aktualny kolor rysuj¹cy - czerwony
+	// Aktualny kolor rysuj¹cy - pastelowy
 	//	R	G	B
-	glColor3f(1.0f, 0.0f, 0.0f);
-	// Narysowanie szeœciok¹ta wype³nionego aktualnym kolorem
+	glColor3f(0.98f, 0.04f, 0.70f);
+	// Narysowanie piêciok¹ta wype³nionego aktualnym kolorem
 	int triangleAmount = 5;
 	GLfloat twicePi = 2.0f * 3.14;
 	angle += 0.8f;
@@ -124,7 +124,7 @@ void ChangeSize(GLsizei w, GLsizei h) {
 // Konfigurowanie stanu renderowania
 void SetupRC(void) {
 	// Ustalenie niebieskiego koloru czyszcz¹cego     
-	glClearColor(0.0f, 0.0f, 1.0f, 1.0f);
+	glClearColor(0.0f, 1.0f, 0.0f, 0.0f);
 }
 ///////////////////////////////////////////////////////////
 // G³ówny punkt wejœcia programu
@@ -132,7 +132,7 @@ void main(int argc, char* argv[]) {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
 	glutInitWindowSize(800, 600);
-	glutCreateWindow("Zadanie 3 i 4");
+	glutCreateWindow("Zadanie 3&4");
 	glutDisplayFunc(RenderScene);
 	glutReshapeFunc(ChangeSize);
 	glutTimerFunc(33, TimerFunction, 1);

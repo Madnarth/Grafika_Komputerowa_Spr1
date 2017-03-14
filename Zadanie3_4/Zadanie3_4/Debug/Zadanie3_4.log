@@ -1,5 +1,4 @@
-﻿  stdafx.cpp
-  Zadanie3_4.cpp
+﻿  Zadanie3_4.cpp
 c:\users\paweł\documents\github\grafika_komputerowa_spr1\zadanie3_4\zadanie3_4\zadanie3_4.cpp(32): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
 c:\users\paweł\documents\github\grafika_komputerowa_spr1\zadanie3_4\zadanie3_4\zadanie3_4.cpp(47): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
   Zadanie3_4.vcxproj -> C:\Users\Paweł\Documents\GitHub\Grafika_Komputerowa_Spr1\Zadanie3_4\Debug\Zadanie3_4.exe
